@@ -1,0 +1,94 @@
+// Server-side data functions - you can easily modify these or connect to a database
+
+export async function getProjects() {
+  // In a real app, this would fetch from a database
+  return [
+    {
+      id: 1,
+      title: "E-commerce Platform",
+      description: "A modern e-commerce solution with advanced filtering and payment integration",
+      technologies: ["Next.js", "TypeScript", "Stripe", "Tailwind"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/example",
+    },
+    {
+      id: 2,
+      title: "Task Management App",
+      description: "Collaborative task management with real-time updates and team features",
+      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/example",
+    },
+    {
+      id: 3,
+      title: "Portfolio Website",
+      description: "A creative portfolio showcasing design and development skills",
+      technologies: ["Next.js", "Framer Motion", "Tailwind", "MDX"],
+      liveUrl: "https://example.com",
+      githubUrl: "https://github.com/example",
+    },
+  ]
+}
+
+export async function getCaseStudies() {
+  return [
+    {
+      id: 1,
+      title: "Redesigning User Onboarding Flow",
+      description: "How we increased user activation by 40% through strategic UX improvements",
+      duration: "3 months",
+      category: "UX Design",
+      challenge: "Users were dropping off during the onboarding process, with only 35% completing registration.",
+      solution: "Simplified the flow to 3 steps, added progress indicators, and implemented smart defaults.",
+      result: "Increased completion rate to 75% and reduced support tickets by 60%.",
+    },
+    {
+      id: 2,
+      title: "Performance Optimization Project",
+      description: "Reducing load times and improving Core Web Vitals for better user experience",
+      duration: "2 months",
+      category: "Development",
+      challenge: "Website was loading slowly with poor Core Web Vitals scores affecting SEO rankings.",
+      solution: "Implemented code splitting, image optimization, and caching strategies.",
+      result: "Reduced load time by 65% and improved Lighthouse score from 45 to 95.",
+    },
+  ]
+}
+
+export async function getAboutData() {
+  return {
+    name: "Alex Johnson",
+    bio: "I'm a passionate full-stack developer and designer with over 5 years of experience creating digital experiences that matter. I love solving complex problems and turning ideas into beautiful, functional applications. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.",
+    skills: {
+      development: [
+        "JavaScript/TypeScript",
+        "React & Next.js",
+        "Node.js & Express",
+        "Python & Django",
+        "PostgreSQL & MongoDB",
+      ],
+      design: ["UI/UX Design", "Figma & Sketch", "Design Systems", "Prototyping", "User Research"],
+      tools: ["Git & GitHub", "Docker", "AWS & Vercel", "VS Code", "Linear & Notion"],
+    },
+    experience: [
+      {
+        role: "Senior Full-Stack Developer",
+        company: "Tech Startup Inc.",
+        period: "2022 - Present",
+        description: "Leading development of core platform features and mentoring junior developers.",
+      },
+      {
+        role: "Frontend Developer",
+        company: "Digital Agency Co.",
+        period: "2020 - 2022",
+        description: "Built responsive web applications for various clients using React and modern tools.",
+      },
+      {
+        role: "Junior Developer",
+        company: "Local Web Studio",
+        period: "2019 - 2020",
+        description: "Started my career building websites and learning the fundamentals of web development.",
+      },
+    ],
+  }
+}
