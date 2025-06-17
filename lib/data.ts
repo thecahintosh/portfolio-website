@@ -1,7 +1,4 @@
-// Server-side data functions - you can easily modify these or connect to a database
-
 export async function getProjects() {
-  // In a real app, this would fetch from a database
   return [
     {
       id: 1,
