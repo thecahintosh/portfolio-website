@@ -23,7 +23,6 @@ export default function ContactPage() {
       <main className="container mx-auto px-6 py-12">
         <div className="max-w-2xl mx-auto">
           <div className="grid gap-8">
-            {/* Contact Info */}
             <div className="grid md:grid-cols-2 gap-4">
               <Card className="bg-gray-800/50 border border-red-500/20">
                 <CardHeader>
@@ -36,21 +35,6 @@ export default function ContactPage() {
                   <p className="text-gray-300">hello@portfolio.dev</p>
                 </CardContent>
               </Card>
-
-              <Card className="bg-gray-800/50 border border-orange-500/20">
-                <CardHeader>
-                  <div className="flex items-center space-x-2">
-                    <MessageCircle className="w-5 h-5 text-orange-400" />
-                    <CardTitle className="text-white">Response Time</CardTitle>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-300">Usually within 24 hours</p>
-                </CardContent>
-              </Card>
-            </div>
-
-            {/* Contact Form */}
             <Card className="bg-gray-800/50 border border-red-500/20">
               <CardHeader>
                 <CardTitle className="text-white">Send a Message</CardTitle>
