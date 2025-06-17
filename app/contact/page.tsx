@@ -32,7 +32,7 @@ export default function ContactPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300">hello@portfolio.dev</p>
+                  <p className="text-gray-300">singh.2004.shivansh@gmail.com</p>
                 </CardContent>
               </Card>
             <Card className="bg-gray-800/50 border border-red-500/20">
