@@ -39,7 +39,7 @@ export default function ContactPage() {
               <Card className="bg-gray-800/50 border border-orange-500/20">
                 <CardHeader>
                   <div className="flex items-center space-x-2">
-                    <MessageCircle className="w-5 h-5 text-orange-400" />Add commentMore actions
+                    <MessageCircle className="w-5 h-5 text-orange-400" />
                     <CardTitle className="text-white">Github</CardTitle>
                   </div>
                 </CardHeader>
