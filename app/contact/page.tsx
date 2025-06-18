@@ -35,6 +35,19 @@ export default function ContactPage() {
                   <p className="text-gray-300">singh.2004.shivansh@gmail.com</p>
                 </CardContent>
               </Card>
+
+              <Card className="bg-gray-800/50 border border-orange-500/20">
+                <CardHeader>
+                  <div className="flex items-center space-x-2">
+                    <MessageCircle className="w-5 h-5 text-orange-400" />Add commentMore actions
+                    <CardTitle className="text-white">Github</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-300">thecahintosh</p>
+                </CardContent>
+              </Card>
+            </div>
             <Card className="bg-gray-800/50 border border-red-500/20">
               <CardHeader>
                 <CardTitle className="text-white">Send a Message</CardTitle>
