@@ -1,10 +1,7 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { ArrowLeft, Mail, MessageCircle, Send } from "lucide-react"
-import { submitContactForm } from "@/lib/actions"
+import { ArrowLeft, Mail, MessageCircle, Instagram, Twitter, Linkedin } from "lucide-react"
 
 export default function ContactPage() {
   return (
@@ -16,7 +13,7 @@ export default function ContactPage() {
             Back to Home
           </Link>
           <h1 className="text-3xl font-bold">Let's Talk</h1>
-          <p className="text-gray-300 mt-2">Ready to start a conversation? I'd love to hear from you.</p>
+          <p className="text-gray-300 mt-2">Connect with me through the links below.</p>
         </div>
       </header>
 
@@ -48,71 +45,62 @@ export default function ContactPage() {
                 </CardContent>
               </Card>
             </div>
-            <Card className="bg-gray-800/50 border border-red-500/20">
-              <CardHeader>
-                <CardTitle className="text-white">Send a Message</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <form action={submitContactForm} className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                        Name
-                      </label>
-                      <Input
-                        id="name"
-                        name="name"
-                        required
-                        className="bg-gray-700 border-gray-600 text-white focus:border-red-400"
-                        placeholder="Your name"
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                        Email
-                      </label>
-                      <Input
-                        id="email"
-                        name="email"
-                        type="email"
-                        required
-                        className="bg-gray-700 border-gray-600 text-white focus:border-red-400"
-                        placeholder="your@email.com"
-                      />
-                    </div>
+
+            <div className="grid md:grid-cols-3 gap-4">
+              <Card className="bg-gray-800/50 border border-pink-500/20">
+                <CardHeader>
+                  <div className="flex items-center space-x-2">
+                    <Instagram className="w-5 h-5 text-pink-400" />
+                    <CardTitle className="text-white">Instagram</CardTitle>
                   </div>
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">
-                      Subject
-                    </label>
-                    <Input
-                      id="subject"
-                      name="subject"
-                      required
-                      className="bg-gray-700 border-gray-600 text-white focus:border-red-400"
-                      placeholder="What's this about?"
-                    />
+                </CardHeader>
+                <CardContent>
+                  <Link
+                    href="https://instagram.com/shivxnshsingh"
+                    target="_blank"
+                    className="text-gray-300 hover:underline"
+                  >
+                    @shivxnshsingh
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-gray-800/50 border border-blue-400/20">
+                <CardHeader>
+                  <div className="flex items-center space-x-2">
+                    <Twitter className="w-5 h-5 text-blue-400" />
+                    <CardTitle className="text-white">Twitter</CardTitle>
                   </div>
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                      Message
-                    </label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      required
-                      rows={6}
-                      className="bg-gray-700 border-gray-600 text-white focus:border-red-400"
-                      placeholder="Tell me about your project or just say hello..."
-                    />
+                </CardHeader>
+                <CardContent>
+                  <Link
+                    href="https://x.com/ShivanshSi69754"
+                    target="_blank"
+                    className="text-gray-300 hover:underline"
+                  >
+                    @ShivanshSi69754
+                  </Link>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-gray-800/50 border border-blue-600/20">
+                <CardHeader>
+                  <div className="flex items-center space-x-2">
+                    <Linkedin className="w-5 h-5 text-blue-500" />
+                    <CardTitle className="text-white">LinkedIn</CardTitle>
                   </div>
-                  <Button type="submit" className="w-full bg-red-500 hover:bg-red-600 text-white">
-                    <Send className="w-4 h-4 mr-2" />
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+                </CardHeader>
+                <CardContent>
+                  <Link
+                    href="www.linkedin.com/in/shivansh-singh-b80b84125"
+                    target="_blank"
+                    className="text-gray-300 hover:underline"
+                  >
+                    Shivansh Singh
+                  </Link>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </main>
