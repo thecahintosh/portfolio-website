@@ -6,7 +6,7 @@ export async function getProjects() {
       description: "Nothing exceptional here, ignore.",
       technologies: ["Next.js", "TypeScript", "Tailwind"],
       liveUrl: "https://portfolio-website-neon.vercel.app/",
-      githubUrl: "https://github.com/thecahintosh/Summarizo",
+      githubUrl: "https://github.com/thecahintosh/portfolio-website",
     },
     {
       id: 2,
@@ -54,15 +54,15 @@ export async function getCaseStudies() {
 
 export async function getAboutData() {
   return {
-    name: "Alex Johnson",
-    bio: "I'm a passionate full-stack developer and designer with over 5 years of experience creating digital experiences that matter. I love solving complex problems and turning ideas into beautiful, functional applications. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or enjoying a good cup of coffee.",
+    name: "Shivansh Singh",
+    bio: "Trying to do my thing in the world.",
     skills: {
       development: [
         "JavaScript/TypeScript",
         "React & Next.js",
-        "Node.js & Express",
-        "Python & Django",
-        "PostgreSQL & MongoDB",
+        "Rust",
+        "Python & Libraries",
+        "CPP",
       ],
       design: ["UI/UX Design", "Figma & Sketch", "Design Systems", "Prototyping", "User Research"],
       tools: ["Git & GitHub", "Docker", "AWS & Vercel", "VS Code", "Linear & Notion"],
