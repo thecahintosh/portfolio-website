@@ -13,8 +13,8 @@ export async function getProjects() {
       title: "Summarizo",
       description: "A lightweight, real-time news article summarizer that uses a fine-tuned NLP model",
       technologies: ["Huggingface Transformers", "Newspaper3k", "Flask", "HTML + CSS + JavaScript"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/example",
+      liveUrl: "https://github.com/thecahintosh/Summarizo",
+      githubUrl: "https://github.com/thecahintosh/Summarizo",
     },
     {
       id: 3,
