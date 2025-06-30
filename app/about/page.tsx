@@ -21,7 +21,6 @@ export default async function AboutPage() {
 
       <main className="container mx-auto px-6 py-12">
         <div className="max-w-4xl mx-auto space-y-12">
-          {/* Bio Section */}
           <Card className="bg-gray-800/50 border border-red-500/20">
             <CardHeader>
               <CardTitle className="text-white text-xl">Hello, I'm {aboutData.name}</CardTitle>
@@ -31,7 +30,7 @@ export default async function AboutPage() {
             </CardContent>
           </Card>
 
-          {/* Skills Section */}
+
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="bg-gray-800/50 border border-red-500/20">
               <CardHeader>
@@ -87,8 +86,6 @@ export default async function AboutPage() {
               </CardContent>
             </Card>
           </div>
-
-          {/* Experience Timeline */}
           <Card className="bg-gray-800/50 border border-orange-500/20">
             <CardHeader>
               <CardTitle className="text-white text-xl">Experience</CardTitle>
