@@ -58,7 +58,8 @@ export async function getAboutData() {
       ],
       design: [""],
       tools: ["Git & GitHub", "AWS & Vercel", "VS Code", "Linear & Notion"],
-    },
+    }, 
     experience: ["Empty here as of now"]
-
+  }
 }
+
