@@ -56,9 +56,9 @@ export async function getAboutData() {
         "Python & Libraries",
         "CPP",
       ],
-      design: ["UI/UX Design", "Figma & Sketch", "Design Systems", "Prototyping", "User Research"],
+      design: [""],
       tools: ["Git & GitHub", "AWS & Vercel", "VS Code", "Linear & Notion"],
     },
-    experience: []
+    experience: ["Empty here as of now"]
 
 }
