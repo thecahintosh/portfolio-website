@@ -12,8 +12,8 @@ const portfolioSections = [
     color: "border-red-500/20 hover:border-red-500/40",
   },
   {
-    title: "DSA Journey",
-    description: "Deep dives into problem-solving processes",
+    title: "My Blogs",
+    description: "Where I write about what I feel",
     href: "/case-studies",
     icon: BookOpen,
     color: "border-orange-500/20 hover:border-orange-500/40",
