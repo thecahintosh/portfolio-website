@@ -16,7 +16,7 @@ export async function getProjects() {
       liveUrl: "https://github.com/thecahintosh/Summarizo",
       githubUrl: "https://github.com/thecahintosh/Summarizo",
     },
-  ]
+  ];
 }
 
 export async function getCaseStudies() {
@@ -41,7 +41,7 @@ export async function getCaseStudies() {
       solution: "Implemented code splitting, image optimization, and caching strategies.",
       result: "Reduced load time by 65% and improved Lighthouse score from 45 to 95.",
     },
-  ]
+  ];
 }
 
 export async function getAboutData() {
@@ -56,10 +56,9 @@ export async function getAboutData() {
         "Python & Libraries",
         "CPP",
       ],
-      design: [""],
+      design: [],
       tools: ["Git & GitHub", "AWS & Vercel", "VS Code", "Linear & Notion"],
-    }, 
-    experience: ["Empty here as of now"]
-  }
+    },
+    experience: [],
+  };
 }
-
