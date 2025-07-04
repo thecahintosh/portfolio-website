@@ -14,8 +14,8 @@ export default async function CaseStudiesPage() {
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
-          <h1 className="text-3xl font-bold">Case Studies</h1>
-          <p className="text-gray-300 mt-2">Deep dives into problem-solving processes and methodologies</p>
+          <h1 className="text-3xl font-bold">Blogs</h1>
+          <p className="text-gray-300 mt-2">My Insights?</p>
         </div>
       </header>
 
