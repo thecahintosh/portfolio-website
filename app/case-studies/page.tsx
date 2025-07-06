@@ -4,7 +4,7 @@ import { ArrowLeft, Clock, Target } from "lucide-react"
 import { getCaseStudies } from "@/lib/data" 
 
 export default async function BlogPage() {
-  const blogs = await getCaseStudies() 
+  const blogs = await getBlogs() 
 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
