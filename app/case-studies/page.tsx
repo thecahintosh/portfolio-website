@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowLeft, Clock, Target } from "lucide-react"
-import { getCaseStudies } from "@/lib/data" 
+import { getBlogs } from "@/lib/data" 
 
 export default async function BlogPage() {
   const blogs = await getBlogs() 
