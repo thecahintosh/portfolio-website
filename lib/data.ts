@@ -19,27 +19,12 @@ export async function getProjects() {
   ];
 }
 
-export async function getCaseStudies() {
+export async function getBlogs() {
   return [
     {
       id: 1,
-      title: "Blog 1.exe",
+      title: "Blog1.exe",
       description: "Still not here.exe",
-      duration: "3 months",
-      category: "UX Design",
-      challenge: "Users were dropping off during the onboarding process, with only 35% completing registration.",
-      solution: "Simplified the flow to 3 steps, added progress indicators, and implemented smart defaults.",
-      result: "Increased completion rate to 75% and reduced support tickets by 60%.",
-    },
-    {
-      id: 2,
-      title: "Performance Optimization Project",
-      description: "Reducing load times and improving Core Web Vitals for better user experience",
-      duration: "2 months",
-      category: "Development",
-      challenge: "Website was loading slowly with poor Core Web Vitals scores affecting SEO rankings.",
-      solution: "Implemented code splitting, image optimization, and caching strategies.",
-      result: "Reduced load time by 65% and improved Lighthouse score from 45 to 95.",
     },
   ];
 }
