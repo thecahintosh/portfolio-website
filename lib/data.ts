@@ -25,6 +25,8 @@ export async function getBlogs() {
       id: 1,
       title: "Blog1.exe",
       description: "Still not here.exe",
+      duration: "1 second",
+      category: "nothing",
     },
   ];
 }
