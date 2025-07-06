@@ -1,7 +1,8 @@
 import Link from "next/link"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ArrowLeft, Mail, MessageCircle, Instagram, Twitter, Linkedin } from "lucide-react"
+import { ArrowLeft, Mail, MessageCircle, Twitter, Linkedin } from "lucide-react"
+import { Users } from "lucide-react" // Using a generic icon for Peerlist (or you can use a custom SVG)
 
 export default function ContactPage() {
   return (
@@ -47,20 +48,20 @@ export default function ContactPage() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-4">
-              <Card className="bg-gray-800/50 border border-pink-500/20">
+              <Card className="bg-gray-800/50 border border-yellow-500/20">
                 <CardHeader>
                   <div className="flex items-center space-x-2">
-                    <Instagram className="w-5 h-5 text-pink-400" />
-                    <CardTitle className="text-white">Instagram</CardTitle>
+                    <Users className="w-5 h-5 text-yellow-400" />
+                    <CardTitle className="text-white">Peerlist</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="https://instagram.com/shivxnshsingh"
+                    href="https://peerlist.io/shivansh"
                     target="_blank"
                     className="text-gray-300 hover:underline"
                   >
-                    @shivxnshsingh
+                    peerlist.io/shivansh
                   </Link>
                 </CardContent>
               </Card>
@@ -92,7 +93,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="www.linkedin.com/in/shivansh-singh-b80b84125"
+                    href=""
                     target="_blank"
                     className="text-gray-300 hover:underline"
                   >
