@@ -44,7 +44,7 @@ export async function getAboutData() {
         "CPP",
       ],
       design: [],
-      tools: ["Git & GitHub", "AWS & Vercel", "VS Code", "Linear & Notion"],
+      tools: ["Git & GitHub", "Vercel", "VS Code", "Notion"],
     },
     experience: [],
   };
