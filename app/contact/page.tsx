@@ -57,11 +57,11 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <Link
-                    href="https://peerlist.io/shivansh"
+                    href="https://peerlist.io/shivxnshsingh"
                     target="_blank"
                     className="text-gray-300 hover:underline"
                   >
-                    peerlist.io/shivansh
+                    shivxnshsingh
                   </Link>
                 </CardContent>
               </Card>
